@@ -9,7 +9,4 @@ def index(request):
 
         data = function(commodity)
 
-
-
-
     return HttpResponse("Hello")
