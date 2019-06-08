@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from commodity.views import index
+import commodity.views as views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name="index")
+    path('', views.IndexView.as_view(), name="index")
 ]

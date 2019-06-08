@@ -8,7 +8,7 @@ subscription_key = "sy5hykat267hzj83utqa10dpxspszr4f"
 assert subscription_key
 
 def sentiment(string):
-    api_url = 'https://stormy-refuge-29936.herokuapp.com/sentiment/'
+    api_url = 'http://127.0.0.1:8000/sentiment/'
     headers = { 'Ocp-Apim-Subscription-Key': subscription_key,
                'Content-Type': 'application/json'
               }
