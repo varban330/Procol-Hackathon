@@ -1,0 +1,1 @@
+web: gunicorn procol_hackathon.wsgi --log-file -
